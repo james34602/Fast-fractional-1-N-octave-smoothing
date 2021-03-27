@@ -1,0 +1,2 @@
+mex -v COMPFLAGS="$COMPFLAGS /GL /fp:fast" -output james_initOctave interpolation2.c james_initOctave.c
+mex -v COMPFLAGS="$COMPFLAGS /GL /fp:fast" -output james_smoothOctave interpolation2.c james_smoothOctave.c
